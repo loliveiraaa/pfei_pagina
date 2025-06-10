@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+    background: linear-gradient(to bottom, #000000, #000000);
 }
 
 header {
@@ -70,7 +70,7 @@ section img:hover {
 }
 
 footer {
-    background-color: #000032;
+    background-color: #00FFFF;
     color: white;
     text-align: center;
     padding: 10px;
