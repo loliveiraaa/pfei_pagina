@@ -8,7 +8,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 50, 0.9);
+    background-color: cyan;
     color: white;
     text-align: center;
     padding: 20px;
