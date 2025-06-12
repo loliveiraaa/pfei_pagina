@@ -13,14 +13,14 @@ body {
     margin: 0;
     /* **ALTERAÇÃO:** Reduzido o padding superior para diminuir o espaço entre o cabeçalho fixo e o início do conteúdo principal. */
     padding-top: 80px; /* Valor ajustado para desktop */
-    background: linear-gradient(to right, blue, #00FFFF); /* Gradiente blue e cyan */
+    background: linear-gradient(to right, Black, #000000); /* Gradiente blue e cyan */
     color: #333;
     line-height: 1.6;
 }
 
 /* Estilo do cabeçalho */
 #cabecalho {
-    background-color: #2c3e50; /* Cor escura para o cabeçalho */
+    background-color: #0000CD; /* Cor escura para o cabeçalho */
     color: white;
     padding: 20px 0; /* Mais padding superior/inferior para o conteúdo */
     text-align: center;
