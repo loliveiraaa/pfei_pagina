@@ -13,14 +13,14 @@ body {
     margin: 0;
     /* **ALTERAÇÃO:** Reduzido o padding superior para diminuir o espaço entre o cabeçalho fixo e o início do conteúdo principal. */
     padding-top: 90px; /* Valor ajustado para desktop */
-    background: linear-gradient(to right, Black, #008B8B); /* Gradiente black e DarkCyan */
+    background: linear-gradient(to right, Black, #483D8B); /* Gradiente black e DarkCyan */
     color: White;
     line-height: 1.6;
 }
 
 /* Estilo do cabeçalho */
 #cabecalho {
-    background-color: #0000CD; /* Cor escura para o cabeçalho */
+    background-color: #6959CD; /* Cor escura para o cabeçalho */
     color: white;
     padding: 20px 0; /* Mais padding superior/inferior para o conteúdo */
     text-align: center;
@@ -84,7 +84,7 @@ body {
 
 /* Estilo do menu de navegação quando clicado (será adicionado via JavaScript) */
 #menu-navegacao.clicked {
-    background-color: #1E90FF; /* Uma cor diferente para o menu quando clicado */
+    background-color: #191970; /* Uma cor diferente para o menu quando clicado */
 }
 
 /* Estilo das seções */
@@ -110,7 +110,7 @@ section:hover {
 section h2 {
     color: #6495ED;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 2px solid #66CDAA;
+    border-bottom: 2px solid #6959CD;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -131,7 +131,7 @@ section h2 {
 
 .social-icons a:hover {
     transform: rotate(360deg); /* Rotação ao passar o mouse */
-    color: #00CED1; /* Cor ao passar o mouse */
+    color: #6A5ACD; /* Cor ao passar o mouse */
 }
 
 /* Estilo para envolver o conteúdo de mídia e texto */
@@ -220,7 +220,7 @@ section h2 {
 
 /* Estilo para links dentro das seções */
 section a {
-    color: #708090;
+    color: #6A5ACD;
     text-decoration: none;
     font-weight: bold;
 }
@@ -231,7 +231,7 @@ section a:hover {
 
 /* Estilo do rodapé */
 #rodape {
-    background-color:  #0000CD;
+    background-color:  #6959CD;
     color: white;
     text-align: center;
     padding: 20px;
@@ -288,7 +288,7 @@ section a:hover {
         width: 100%; /* Ocupa a largura total em telas menores */
         height: auto; /* Altura automática para manter a proporção */
         max-width: 200px; /* Garante que a imagem não seja muito grande */
-        max-height: 550px; /* Limite de altura para a imagem em mobile */
+        max-height: 480px; /* Limite de altura para a imagem em mobile */
         /* Para o vídeo, a largura total, mas com a proporção de 16:9 ajustada */
         /* Você pode ajustar o max-width e max-height para controlar o tamanho máximo em mobile */
     }
