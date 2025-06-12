@@ -13,7 +13,7 @@ body {
     margin: 0;
     /* **ALTERAÇÃO:** Reduzido o padding superior para diminuir o espaço entre o cabeçalho fixo e o início do conteúdo principal. */
     padding-top: 80px; /* Valor ajustado para desktop */
-    background: linear-gradient(to right, Black, #000000); /* Gradiente black e cyan */
+    background: linear-gradient(to right, Black, white); /* Gradiente black e cyan */
     color: #333;
     line-height: 1.6;
 }
