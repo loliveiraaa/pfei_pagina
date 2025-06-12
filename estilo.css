@@ -78,7 +78,7 @@ body {
 }
 
 #menu-navegacao li a:hover {
-    background-color: #008080; /* Cor de destaque ao passar o mouse */
+    background-color: #000000; /* Cor de destaque ao passar o mouse */
     border-radius: 5px;
 }
 
@@ -162,7 +162,7 @@ section h2 {
 /* Estilo para o retângulo das IMAGENS (Fotos da Laís e do Livro) */
 .image-frame {
     width: 350px; /* Largura definida para as imagens */
-    height: 250px; /* Altura definida para as imagens */
+    height: 500px; /* Altura definida para as imagens */
     border: 3px solid black; /* Moldura black */
     display: flex; /* Para centralizar a imagem dentro do frame */
     justify-content: center; /* Centraliza horizontalmente */
@@ -171,8 +171,8 @@ section h2 {
 }
 
 .image-frame img {
-    max-width: 50%; /* Garante que a imagem se ajuste à largura do container */
-    max-height: 50%; /* Garante que a imagem se ajuste à altura do container */
+    max-width: 100%; /* Garante que a imagem se ajuste à largura do container */
+    max-height: 100%; /* Garante que a imagem se ajuste à altura do container */
     display: block; /* Remove espaçamento extra abaixo da imagem */
     object-fit: contain; /* Redimensiona a imagem para caber no container sem cortar, mantendo a proporção */
 }
