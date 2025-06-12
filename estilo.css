@@ -14,7 +14,7 @@ body {
     /* **ALTERAÇÃO:** Reduzido o padding superior para diminuir o espaço entre o cabeçalho fixo e o início do conteúdo principal. */
     padding-top: 90px; /* Valor ajustado para desktop */
     background: linear-gradient(to right, Black, #008B8B); /* Gradiente black e DarkCyan */
-    color: #008B8B;
+    color: White;
     line-height: 1.6;
 }
 
@@ -162,7 +162,7 @@ section h2 {
 /* Estilo para o retângulo das IMAGENS (Fotos da Laís e do Livro) */
 .image-frame {
     width: 350px; /* Largura definida para as imagens */
-    height: 500px; /* Altura definida para as imagens */
+    height: 490px; /* Altura definida para as imagens */
     border: 3px solid black; /* Moldura black */
     display: flex; /* Para centralizar a imagem dentro do frame */
     justify-content: center; /* Centraliza horizontalmente */
