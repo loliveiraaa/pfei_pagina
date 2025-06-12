@@ -52,7 +52,7 @@ body {
 
 /* Estilo do menu de navegação dentro do cabeçalho */
 #menu-navegacao {
-    background-color: #00BFFF; /* Cor ligeiramente mais clara que o cabeçalho */
+    background-color: #6495ED; /* Cor ligeiramente mais clara que o cabeçalho */
     padding: 15px 0;
     text-align: center;
     width: 100%; /* Ocupa toda a largura do cabeçalho */
@@ -95,7 +95,7 @@ main {
 }
 
 section {
-    background-color: #4F4F4F; /* Cor de fundo diferente para as seções */
+    background-color: #B0C4DE; /* Cor de fundo diferente para as seções */
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 15px; /* Cantos arredondados */
