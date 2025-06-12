@@ -12,9 +12,9 @@ body {
     font-family: 'Roboto', sans-serif; /* Tipografia principal */
     margin: 0;
     /* **ALTERAÇÃO:** Reduzido o padding superior para diminuir o espaço entre o cabeçalho fixo e o início do conteúdo principal. */
-    padding-top: 80px; /* Valor ajustado para desktop */
+    padding-top: 90px; /* Valor ajustado para desktop */
     background: linear-gradient(to right, Black, #008B8B); /* Gradiente black e DarkCyan */
-    color: #333;
+    color: #008B8B;
     line-height: 1.6;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 #menu-navegacao li a:hover {
-    background-color: #6495ED; /* Cor de destaque ao passar o mouse */
+    background-color: #008080; /* Cor de destaque ao passar o mouse */
     border-radius: 5px;
 }
 
@@ -95,7 +95,7 @@ main {
 }
 
 section {
-    background-color: #708090; /* Cor de fundo diferente para as seções */
+    background-color: #008080; /* Cor de fundo diferente para as seções */
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 15px; /* Cantos arredondados */
@@ -110,7 +110,7 @@ section:hover {
 section h2 {
     color: #0000CD;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #66CDAA;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -162,7 +162,7 @@ section h2 {
 /* Estilo para o retângulo das IMAGENS (Fotos da Laís e do Livro) */
 .image-frame {
     width: 350px; /* Largura definida para as imagens */
-    height: 450px; /* Altura definida para as imagens */
+    height: 250px; /* Altura definida para as imagens */
     border: 3px solid black; /* Moldura black */
     display: flex; /* Para centralizar a imagem dentro do frame */
     justify-content: center; /* Centraliza horizontalmente */
@@ -171,8 +171,8 @@ section h2 {
 }
 
 .image-frame img {
-    max-width: 100%; /* Garante que a imagem se ajuste à largura do container */
-    max-height: 100%; /* Garante que a imagem se ajuste à altura do container */
+    max-width: 50%; /* Garante que a imagem se ajuste à largura do container */
+    max-height: 50%; /* Garante que a imagem se ajuste à altura do container */
     display: block; /* Remove espaçamento extra abaixo da imagem */
     object-fit: contain; /* Redimensiona a imagem para caber no container sem cortar, mantendo a proporção */
 }
@@ -231,7 +231,7 @@ section a:hover {
 
 /* Estilo do rodapé */
 #rodape {
-    background-color: #00CED1;
+    background-color:  #0000CD;
     color: white;
     text-align: center;
     padding: 20px;
