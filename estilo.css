@@ -84,7 +84,7 @@ body {
 
 /* Estilo do menu de navegação quando clicado (será adicionado via JavaScript) */
 #menu-navegacao.clicked {
-    background-color: #1a659e; /* Uma cor diferente para o menu quando clicado */
+    background-color: #1E90FF; /* Uma cor diferente para o menu quando clicado */
 }
 
 /* Estilo das seções */
@@ -95,7 +95,7 @@ main {
 }
 
 section {
-    background-color: #008080; /* Cor de fundo diferente para as seções */
+    background-color: #4F4F4F; /* Cor de fundo diferente para as seções */
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 15px; /* Cantos arredondados */
